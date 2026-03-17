@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>People Management</title>
+  <link rel="stylesheet" href="People.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Upskill</div>
+
+  <nav class="nav-links">
+    <a href="#">Dashboard</a>
+    <a href="#">Wiki</a>
+    <a href="#">Documents</a>
+    <a href="#">Training</a>
+    <a class="active" href="#">People</a>
+    <a href="#">Reports</a>
+  </nav>
+
+  <div class="user">S</div>
+</header>
+
+<!-- MAIN -->
+<div class="container">
+
+  <h1>People Management</h1>
+  <p class="subtitle">Track employee progress and manage assignments</p>
+
+  <!-- SEARCH -->
+  <div class="search">
+    <input type="text" placeholder="Search employees...">
+  </div>
+
+  <!-- GRID -->
+  <section class="people-grid">
+
+    <!-- CARD -->
+    <div class="person-card">
+      <div class="person-header">
+        <div class="avatar">JE</div>
+        <div>
+          <h3>John Employee</h3>
+          <p class="role">Software Engineer</p>
+          <span class="dept">Engineering</span>
+        </div>
+        <span class="badge dark">On Track</span>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-top">
+          <span>Training Progress</span>
+          <span>93%</span>
+        </div>
+        <div class="progress-bar">
+          <div style="width: 93%"></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><strong>2</strong>&nbsp;&nbsp;<span>Assigned</span></div>
+        <div><strong class="green">1</strong>&nbsp;&nbsp;<span>Completed</span></div>
+        <div><strong class="blue">1</strong>&nbsp;&nbsp;<span>In Progress</span></div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="joined">Joined 6/14/2025</div>
+    </div>
+
+    <!-- CARD -->
+    <div class="person-card">
+      <div class="person-header">
+        <div class="avatar">AJ</div>
+        <div>
+          <h3>Alice Johnson</h3>
+          <p class="role">Product Manager</p>
+          <span class="dept">Product</span>
+        </div>
+        <span class="badge light">Needs Attention</span>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-top">
+          <span>Training Progress</span>
+          <span>67%</span>
+        </div>
+        <div class="progress-bar">
+          <div style="width: 67%"></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><strong>3</strong>&nbsp;&nbsp;<span>Assigned</span></div>
+        <div><strong class="green">2</strong>&nbsp;&nbsp;<span>Completed</span></div>
+        <div><strong class="blue">1</strong>&nbsp;&nbsp;<span>In Progress</span></div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="joined">Joined 2/29/2024</div>
+    </div>
+
+    <!-- CARD -->
+    <div class="person-card">
+      <div class="person-header">
+        <div class="avatar">BS</div>
+        <div>
+          <h3>Bob Smith</h3>
+          <p class="role">Designer</p>
+          <span class="dept">Design</span>
+        </div>
+        <span class="badge dark">On Track</span>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-top">
+          <span>Training Progress</span>
+          <span>96%</span>
+        </div>
+        <div class="progress-bar">
+          <div style="width: 96%"></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><strong>4</strong>&nbsp;&nbsp;<span>Assigned</span></div>
+        <div><strong class="green">3</strong>&nbsp;&nbsp;<span>Completed</span></div>
+        <div><strong class="blue">1</strong>&nbsp;&nbsp;<span>In Progress</span></div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="joined">Joined 1/9/2025</div>
+    </div>
+
+    <!-- CARD -->
+    <div class="person-card">
+      <div class="person-header">
+        <div class="avatar">CW</div>
+        <div>
+          <h3>Carol Williams</h3>
+          <p class="role">Customer Support</p>
+          <span class="dept">Support</span>
+        </div>
+        <span class="badge dark">On Track</span>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-top">
+          <span>Training Progress</span>
+          <span>82%</span>
+        </div>
+        <div class="progress-bar">
+          <div style="width: 82%"></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><strong>4</strong>&nbsp;&nbsp;<span>Assigned</span></div>
+        <div><strong class="green">3</strong>&nbsp;&nbsp;<span>Completed</span></div>
+        <div><strong class="blue">1</strong>&nbsp;&nbsp;<span>In Progress</span></div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="joined">Joined 8/19/2025</div>
+    </div>
+
+    <!-- CARD -->
+    <div class="person-card">
+      <div class="person-header">
+        <div class="avatar">DB</div>
+        <div>
+          <h3>David Brown</h3>
+          <p class="role">Marketing Manager</p>
+          <span class="dept">Marketing</span>
+        </div>
+        <span class="badge light">Needs Attention</span>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-top">
+          <span>Training Progress</span>
+          <span>79%</span>
+        </div>
+        <div class="progress-bar">
+          <div style="width: 79%"></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><strong>3</strong>&nbsp;&nbsp;<span>Assigned</span></div>
+        <div><strong class="green">2</strong>&nbsp;&nbsp;<span>Completed</span></div>
+        <div><strong class="blue">1</strong>&nbsp;&nbsp;<span>In Progress</span></div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="joined">Joined 11/4/2024</div>
+    </div>
+
+    
+
+  </section>
+</div>
+
+</body>
+</html>

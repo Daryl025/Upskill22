@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+  }
+  
+  body {
+    background: #f8fafc;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #6b7280;
+  }
+  
+  .nav-links .active {
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .user {
+    width: 32px;
+    height: 32px;
+    background: #2563eb;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* CONTAINER */
+  .container {
+    padding: 30px;
+  }
+  
+  .subtitle {
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  /* SEARCH */
+  .search input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+  }
+  
+  /* GRID */
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* CARD */
+  .person-card {
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+  }
+  
+  /* HEADER */
+  .person-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    background: #2563eb;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .role {
+    font-size: 13px;
+  }
+  
+  .dept {
+    font-size: 12px;
+    color: #6b7280;
+  }
+  
+  /* BADGE */
+  .badge {
+    margin-left: auto;
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 8px;
+  }
+  
+  .badge.dark {
+    background: #111827;
+    color: white;
+  }
+  
+  .badge.light {
+    background: #e5e7eb;
+  }
+  
+  /* PROGRESS */
+  .progress-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: 10px;
+  }
+  
+  .progress-bar div {
+    height: 100%;
+    background: #111827;
+    border-radius: 10px;
+  }
+  
+  /* STATS */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .stats div {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .green {
+    color: #16a34a;
+  }
+  
+  .blue {
+    color: #2563eb;
+  }
+  
+  /* DIVIDER */
+  .divider {
+    height: 1px;
+    background: #f1f5f9;
+    margin: 12px 0;
+  }
+  
+  /* JOINED */
+  .joined {
+    font-size: 12px;
+    color: #9ca3af;
+  }
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* LIMIT WIDTH */
+  .container {
+    width: 100%;
+    max-width: 1100px; /* adjust if you want wider */
+    padding: 30px 20px;
+  }
+  
+  /* OPTIONAL: match navbar width too */
+  .navbar {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
