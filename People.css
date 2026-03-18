@@ -171,22 +171,18 @@
     font-size: 12px;
     color: #9ca3af;
   }
-  .page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* LIMIT WIDTH */
-  .container {
-    width: 100%;
-    max-width: 1100px; /* adjust if you want wider */
-    padding: 30px 20px;
-  }
-  
-  /* OPTIONAL: match navbar width too */
-  .navbar {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
+
+  .person-card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+  cursor: pointer; /* important */
+}
+
+.person-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  border-color: #d1d5db;
+}
