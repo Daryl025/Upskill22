@@ -11,12 +11,19 @@
   
   /* NAVBAR */
   .navbar {
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+
     display: flex;
     justify-content: space-between;
-    padding: 16px 32px;
-    background: white;
-    border-bottom: 1px solid #e5e7eb;
-  }
+    align-items: center;
+
+    padding: 0 30px;
+
+    max-width: 1200px;    
+    margin: 0 auto;      
+}
   
   .nav-links a {
     margin: 0 10px;
